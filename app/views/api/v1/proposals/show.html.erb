@@ -1,0 +1,11 @@
+<h1>Api::V1::Proposals#show</h1>
+<p>Find me in app/views/api/v1/proposals/show.html.erb</p>
+<h3>Suivi des KPI</h3>
+<p>Score d'engagement : <%= @kpi_score %></p>
+
+<h2><%= @proposal.title %></h2>
+<p><%= @proposal.content %></p>
+
+<h3>Simulation d'Impact</h3>
+<p>Score d'impact : <%= @simulation_result[:impact_score] %></p>
+<p>Suggestion : <%= @simulation_result[:suggestion] %></p>

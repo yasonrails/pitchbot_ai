@@ -74,3 +74,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem 'httparty'
+gem 'aws-sdk-s3'
+gem 'sentry-raven'
